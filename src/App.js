@@ -10,21 +10,28 @@ import { ClientContext } from './Context/AppContextProvider';
 
 
 function App() {
-//const {user}=useContext(ClientContext)
+const {user,token}=useContext(ClientContext)
 
   return (
     <>
-{/*<Login />*/}
-    <div className="app">       
-        
+    <div className="app"> 
+   
+   {token===null?
+
+    (<Login />)
+    :
+    (      
+       <> 
         <Sidebar/>
         <Header />
         <Routes>
             <Route path='viewClients' element={<Clientslist/>}/>
             <Route path='addClients' element={<Addclients/>}/>         
         </Routes>
-    
+       </>
   
+   
+    )}
     </div>
     </>
   );

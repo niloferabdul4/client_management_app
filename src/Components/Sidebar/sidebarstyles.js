@@ -14,6 +14,10 @@ top: 0px;
 background: white;
 /* Card Shadow/01 */
 box-shadow: 0px 1px 5px rgba(3, 0, 55, 0.08);
+${mobile({
+       display:'none'
+       
+         })}
 
 
 `

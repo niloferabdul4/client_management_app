@@ -1,14 +1,24 @@
-import React,{createContext, useState} from 'react'
-export const ClientContext=createContext()
+import React,{createContext, useState,useEffect} from 'react'
+export const ClientContext=createContext(null)
 
 const AppContextProvider = ({children}) => {
 
   const [selected,setSelected]=useState(false)
   const [selectedModule,setSelectedModule]=useState('')
-
+  const[selectedBtn,setSelectedBtn]=useState('')
+  const [user,setUser]=useState('')
+  const[token,setToken]=useState('')
+  
   return (
     <div>
-      <ClientContext.Provider value={{selected,setSelected,selectedModule,setSelectedModule,user,setUser}} >
+      <ClientContext.Provider value={{user,setUser,
+                                      token,setToken,
+                                      selectedBtn,
+                                      setSelectedBtn,
+                                      selected,
+                                      setSelected,
+                                      selectedModule,
+                                      setSelectedModule}} >
           {children}
       </ClientContext.Provider>
     </div>

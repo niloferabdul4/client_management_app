@@ -2,15 +2,14 @@ import styled from "styled-components";
 import { mobile } from "../../Responsive";
 
 const LoginContainer=styled.div`
-  height: 100vh;
+  
   width: 100vw;
   display:flex;
   justify-content:center;
   align-items:center;
   ${mobile({
          gap:'0px',
-         width:'380px',
-             
+         height:'100%'            
          })}
   `
 
@@ -23,10 +22,11 @@ const LoginCard=styled.div`
   display: flex;
   flex-direction: row;
   ${mobile({
-         height:'500px',
-         width:'280px' ,
+         height:'700px',
+         width:'500px' ,
          flexDirection:'column',
-         borderRadius:'6px'
+         borderRadius:'6px',
+         margin:'10px'
          })}
 `
 const LeftWrapper=styled.div` 
@@ -53,7 +53,8 @@ padding: 30px;
 gap:25px;  
 background: #1334B3;
 ${mobile({
-       padding:'15px'
+       padding:'15px',
+       gap:'15px'
        })}
 `
 const Title=styled.h3`
@@ -128,12 +129,16 @@ const LeftInfo=styled.div`
   margin:20px 0px;
 `
 const Image=styled.img`
+  height:300px;
+  width:400px;
+  box-shadow: 0px 12px 48px rgba(3, 0, 55, 0.15);
+  border-radius: 20px;
+  transform:scale(360deg);
+  ${mobile({
+       height:'250px',
+       width:'260px'
+         })}
 
-height:300px;
-width:400px;
-box-shadow: 0px 12px 48px rgba(3, 0, 55, 0.15);
-border-radius: 20px;
-transform:scale(360deg)
 `
 const RightInfo=styled.div`
   display:flex;
@@ -142,6 +147,10 @@ const RightInfo=styled.div`
   align-items:center;
   height:68px;
   width:100%;
+  ${mobile({
+       
+       width:'100%'
+         })}
   
 `
 
@@ -151,6 +160,9 @@ color:white;
 font-size: 20px;
 font-weight:600;
 line-height: 44px;
+${mobile({
+        fontSize:'10px'
+         })}
 `
 
 const Content=styled.p`
