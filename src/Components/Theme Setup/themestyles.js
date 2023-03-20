@@ -1,16 +1,21 @@
 import styled from "styled-components";
 const ThemeContainer=styled.div`
+
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
-    position: absolute;
-    width: 1544px;
-    height: 661px;
-    top: 92px;
-    filter: drop-shadow(0px 1px 5px rgba(3, 0, 55, 0.08));
-    border-radius: 8px;
-    gap:20px;
+    padding: 24px;
+    gap: 24px;
+    width: 100%;
+    height: 515px;
+    background: #FFFFFF;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+ 
    
 `
 const PositionWrapper=styled.div`
@@ -18,9 +23,9 @@ const PositionWrapper=styled.div`
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    width: 1496px;
+    width: 1400px;
     height: 147px;
-    color: #939596;
+    
 
 `
 export {ThemeContainer,PositionWrapper}

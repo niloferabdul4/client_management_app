@@ -2,8 +2,9 @@ import styled from "styled-components";
 import { mobile } from "../../Responsive";
 
 const LoginContainer=styled.div`
-  
+  height:100vh;
   width: 100vw;
+  background-color: #d3d3d3;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -15,7 +16,7 @@ const LoginContainer=styled.div`
 
 
 const LoginCard=styled.div`
-  width: 1000px;
+  width:  1000px;
   height: 500px;
   margin:100px;
   background-color:white;

@@ -6,15 +6,13 @@ const ClientslistContainer=styled.div`
     align-items: flex-start;
     padding: 20px 0px;
     position: absolute;
-    width: 1544px;
-    height: 100vh;;
-    left: 350px;
-    gap:15px;
-    top: 89px;
-    background: #FFFFFF;
+    width: 1400px;
     box-shadow: 0px 1px 5px rgba(3, 0, 55, 0.08);
     border-radius: 8px;
+    height: 880px;
+    border:0.5px solid lightgrey
 `
+
 
 const TopSection=styled.div`
     display: flex;
@@ -23,8 +21,8 @@ const TopSection=styled.div`
     justify-content:space-between;
     padding: 16px 24px;
     gap: 10px;
-    width: 1544px;
-    height: 60px;
+    width: 1400px;
+    height: 70px;
     background-color: #FFFFFF;
     flex: none;
     order: 0;
@@ -39,7 +37,7 @@ const BottomSection=styled.div`
     align-items: center;
     padding: 10px;
     gap: 24px;
-    width: 1544px;
+    width: 1400px;
     height: 80px;
 
 `

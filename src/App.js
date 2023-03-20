@@ -1,5 +1,6 @@
 import './App.css';
 import Login from './Pages/Login/Login';
+import Home from './Pages/Home/Home';
 import { Routes,Route } from 'react-router-dom';
 import Header from './Components/Header/Header';
 import Sidebar from './Components/Sidebar/Sidebar';
@@ -9,6 +10,7 @@ import { useContext } from 'react';
 import { ClientContext } from './Context/AppContextProvider';
 
 
+
 function App() {
 const {user,token}=useContext(ClientContext)
 
@@ -16,22 +18,17 @@ const {user,token}=useContext(ClientContext)
     <>
     <div className="app"> 
    
-   {token===null?
+   {!token?
 
     (<Login />)
     :
-    (      
-       <> 
-        <Sidebar/>
-        <Header />
-        <Routes>
-            <Route path='viewClients' element={<Clientslist/>}/>
-            <Route path='addClients' element={<Addclients/>}/>         
-        </Routes>
-       </>
   
+      ( <Home />  )            
+       
+    
+    }
+    
    
-    )}
     </div>
     </>
   );

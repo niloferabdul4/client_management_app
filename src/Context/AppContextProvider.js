@@ -5,7 +5,7 @@ const AppContextProvider = ({children}) => {
 
   const [selected,setSelected]=useState(false)
   const [selectedModule,setSelectedModule]=useState('')
-  const[selectedBtn,setSelectedBtn]=useState('')
+  const[selectedBtn,setSelectedBtn]=useState('View Clients')
   const [user,setUser]=useState('')
   const[token,setToken]=useState('')
   

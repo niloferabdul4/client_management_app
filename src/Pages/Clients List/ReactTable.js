@@ -63,7 +63,7 @@ export default function CustomizedTables() {
 
   return (
     <>
-    <TableContainer sx={{minHeight: 700}} >
+    <TableContainer sx={{minHeight: 600}} >
       <Table sx={{ minWidth: 1000 }} aria-label="customized table">
         <TableHead >
           <TableRow >

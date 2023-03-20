@@ -7,7 +7,7 @@ const Input=styled.input`
     align-items: center;
     padding: 12px 16px;
     gap: 6px;
-    width: 700px;
+    width: 540px;
     height: 40px;
     font-size:14px;
     color: #939596;
@@ -27,7 +27,7 @@ const Input=styled.input`
     align-items: center;
     padding: 8px 16px;
     gap: 6px;
-    width: 700px;
+    width: 540px;
     height: 40px;
     background: #FFFFFF;
     border: 1px solid #E6E6E6;

@@ -47,7 +47,7 @@ const Login = () => {
             })
     })
     .then(res=>res.json())
-    .then(json=>console.log(json.token))
+    .then(json=>setToken(json.token))
     .catch(error=>setToken(null))
    }
    const validate=(data)=>{       

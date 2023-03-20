@@ -15,9 +15,9 @@ const SearchBar=styled.div`
 `
 
 const Input=styled.input`
-    padding:5px;
+    padding:10px;
     text-indent:20px;
-    font-size:0.8rem;
+    font-size:0.95rem;
     width:304px;
     height:30px;
     margin:10px 0px;

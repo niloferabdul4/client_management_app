@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { mobile } from "../../Responsive";
  
 const ProfileContainer=styled.div`
     display: flex;
@@ -6,13 +7,16 @@ const ProfileContainer=styled.div`
     align-items: flex-start;
     padding: 14px;
     gap: 24px;
-    width: 1544px;
+    width: 1400px;
     height: 700px;
     flex: none;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
     margin-bottom:20px;
+    ${mobile({
+        width:'500px'         
+         })}
 
 `
 
@@ -23,16 +27,19 @@ const LogoWrapper =styled.div`
     padding: 0px;
     gap: 16px;
     height: 120px;
-    width: 1544px;
+    width: 1400px;
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
+    ${mobile({
+        width:'500px'         
+         })}
 
 `
 
 const Content=styled.h5`
-    font-size:12px;
+    font-size:16px;
     font-weight:400;
 `
 

@@ -7,7 +7,7 @@ const PaymentContainer=styled.div`
     align-items: flex-start;
     padding: 24px;
     gap: 24px;
-    width: 1544px;
+    width: 100%;
     height: 515px;
     background: #FFFFFF;
     flex: none;
@@ -15,16 +15,17 @@ const PaymentContainer=styled.div`
     align-self: stretch;
     flex-grow: 0;
 
+
 `
 const Input=styled.input`
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 12px 16px;
-    gap: 6px;
-    width: 700px;
+    gap: 4px;
+    width: 500px;
     height: 40px;
-    font-size:14px;
+    font-size:16px;
     color: #939596;
     background: #FFFFFF;
     border: 1px solid #E6E6E6;
@@ -41,8 +42,8 @@ const Input=styled.input`
     flex-direction: row;
     align-items: center;
     padding: 8px 16px;
-    gap: 6px;
-    width: 700px;
+    gap: 4px;
+    width: 500px;
     height: 40px;
     background: #FFFFFF;
     border: 1px solid #E6E6E6;
@@ -51,7 +52,7 @@ const Input=styled.input`
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    font-size:14px;
+    font-size:16px;
     color: #939596;
     
     `
@@ -61,10 +62,9 @@ const Input=styled.input`
     align-items: flex-start;
     justify-content:space-between;
     padding: 0px;
-    gap: 20px;
-    width: 1496px;
+    gap: 10px;
+    width: 1300px;
     height: 51px;
-    color: #939596;
     font-size:14px;
     
     `

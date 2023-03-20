@@ -17,8 +17,8 @@ const Theme = () => {
       <ThemeContainer id='theme'>
       <SubTitle>Theme SetUp</SubTitle>
       <SubText> Add information about the client to give them a personalized experience</SubText>
-      <FormControl halfWidth variant="outlined">
-          <InputLabel>Primary Color</InputLabel>
+      <FormControl halfWidth >
+          <SubText>Primary Color</SubText>
           <OutlinedInput
             value={color}
             onChange={handleChange}
@@ -32,7 +32,7 @@ const Theme = () => {
           <SubTitle>Login Setup</SubTitle>
           <SubText>Select the look and feel of the login page</SubText>
           <FormControl halfWidth variant="outlined">
-          <InputLabel>Use Color</InputLabel>
+          <SubText>Use Color</SubText>
           <OutlinedInput
             value={color}
             onChange={handleChange}
