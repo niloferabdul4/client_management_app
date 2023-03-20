@@ -20,7 +20,7 @@ padding: 12px 16px;
 gap: 12px;
 width: 166px;
 height: 40px;
-background: #153AC7;
+background: rgb(25, 118, 210);
 color:white;
 border-radius: 8px;   
 border:none; 

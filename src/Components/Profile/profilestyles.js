@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { mobile } from "../../Responsive";
+
  
 const ProfileContainer=styled.div`
     display: flex;
