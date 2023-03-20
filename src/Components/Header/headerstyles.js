@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { mobile } from "../../Responsive";
 
 const HeaderContainer=styled.div`
   display: flex;
@@ -12,20 +11,10 @@ const HeaderContainer=styled.div`
   height: 49px;
   left: 356px;
   top: 30px;
-  ${mobile({
-        width:'500px',
-        left:'0px',
-        top:'300px'         
-         })}
  
-
 `
 const ClientMasterTitle=styled.h3`
-
-  ${mobile({
-        fontSize:'18px'
-
-         })}
+ font-size:20px;
 `
 const RouteText=styled.h5`
 color:#686687;

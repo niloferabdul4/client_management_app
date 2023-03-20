@@ -1,15 +1,8 @@
 import styled from "styled-components";
-import { mobile } from "../../Responsive";
 
 const HomeContainer=styled.div`
   width:1544px;
   background-color: brown;
-  ${mobile({
-          width:'500px',
-         display:'flex',
-         flexDirection:'column' 
-             
-         })}
 
 `
 
@@ -27,11 +20,7 @@ const Mainbar=styled.div`
     border-radius: 8px;
     margin:30px 10px;
     border: 0.5px solid lightgrey;
-    ${mobile({
-        left:'0px' ,
-        top:'300px'      
-         })}
-
+  
      
 `
 export {HomeContainer,Mainbar}

@@ -14,9 +14,7 @@ const ProfileContainer=styled.div`
     align-self: stretch;
     flex-grow: 0;
     margin-bottom:20px;
-    ${mobile({
-        width:'500px'         
-         })}
+   
 
 `
 
@@ -32,10 +30,7 @@ const LogoWrapper =styled.div`
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    ${mobile({
-        width:'500px'         
-         })}
-
+   
 `
 
 const Content=styled.h5`

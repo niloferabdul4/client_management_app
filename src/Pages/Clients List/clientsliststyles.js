@@ -11,6 +11,7 @@ const ClientslistContainer=styled.div`
     border-radius: 8px;
     height: 880px;
     border:0.5px solid lightgrey
+    
 `
 
 
@@ -28,6 +29,8 @@ const TopSection=styled.div`
     order: 0;
     align-self: stretch;
     flex-grow: 0;
+   
+    
 `
 
 const BottomSection=styled.div`
@@ -39,7 +42,7 @@ const BottomSection=styled.div`
     gap: 24px;
     width: 1400px;
     height: 80px;
-
+   
 `
 
 const NavigationButtons=styled.div`
@@ -50,6 +53,7 @@ const NavigationButtons=styled.div`
     gap: 24px;
     width: 225px;
     height: 40px;
+   
 
 `
 
@@ -67,6 +71,7 @@ const NavBtn=styled.button`
     border:0.5px solid lightgrey;
     color: #686687;
     opacity:${props=>props.id==='disable'? 0 : 1}
+   
 
 `
 export {ClientslistContainer,TopSection,BottomSection,NavigationButtons,NavBtn}
